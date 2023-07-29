@@ -212,6 +212,38 @@ const stringB = "sitting";
 const editDistance = levenshteinDistance(stringA, stringB); // 3
 ```
 
+15. ### Slugify a Title
+
+Turn any string into a clean, URL-safe slug. Great for blog post URLs, IDs, or anywhere spaces and punctuation aren't welcome.
+
+```javascript
+import { slugify } from "stringy-core";
+
+const title = "Hello, World! 123";
+const slug = slugify(title); // "hello-world-123"
+```
+
+16. ### Escape HTML for Safe Rendering
+
+Keep user-generated content from breaking your markup (or worse) with escapeHTML.
+
+```javascript
+import { escapeHTML } from "stringy-core";
+
+const userInput = `<script>alert("hi")</script>`;
+const safe = escapeHTML(userInput); // "&lt;script&gt;alert(&quot;hi&quot;)&lt;/script&gt;"
+```
+
+17. ### Human-Readable File Sizes
+
+Turn raw byte counts into something a human would actually want to read.
+
+```javascript
+import { formatBytes } from "stringy-core";
+
+const size = formatBytes(1536); // "1.5 KB"
+```
+
 ## All Available Methods
 
 - **`capitalize`**: Capitalizes the first letter of a string.
@@ -239,6 +271,18 @@ const editDistance = levenshteinDistance(stringA, stringB); // 3
 - **`shuffleString`**: Randomizes the order of characters in a string.
 - **`matchesPattern`**: Checks if a string matches a regular expression pattern.
 - **`spliceString`**: Modifies a string by removing, replacing, or inserting characters.
+- **`isNumeric`**: Checks if a string contains only digits (with an optional decimal point).
+- **`isAlpha`**: Checks if a string contains only letters.
+- **`isAlphanumeric`**: Checks if a string contains only letters and digits.
+- **`kebabCase`**: Converts a string to kebab-case.
+- **`pascalCase`**: Converts a string to PascalCase.
+- **`constantCase`**: Converts a string to CONSTANT_CASE.
+- **`slugify`**: Converts a string into a URL-safe slug.
+- **`truncateWords`**: Truncates a string to a specified number of words and appends a custom ending.
+- **`escapeHTML`**: Escapes the 5 reserved HTML characters (`& < > " '`) in a string.
+- **`unescapeHTML`**: Reverses `escapeHTML`, unescaping the 5 reserved HTML entities.
+- **`formatBytes`**: Formats a byte count into a human-readable string (e.g., `1536` → `"1.5 KB"`).
+- **`similarity`**: Calculates a normalized similarity score (0-1) between two strings, derived from `levenshteinDistance`.
 
 ## How to Contribute
 
