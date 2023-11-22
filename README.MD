@@ -1,8 +1,36 @@
-# Stringy -  Lodash for Strings!!!
+![Stringy Logo](assets/logo.png)
+
+# Stringy - Call it Lodash for Strings!
 
 ## Overview
 
-Welcome to \_S, where strings come to have fun! Our library is like a Swiss Army knife for strings in JavaScript. Need to make a string look pretty? Check. Turn it upside down? Maybe not yet, but we're getting there. We've got everything from basic string operations to fancy stuff like extracting data, validating content, and keeping secrets (shh, don't tell the passwords!).
+Stringy: Twist, Turn, and Tangle Your Text! A nimble, tiny and intuitive JavaScript library for efficient string manipulation.
+
+# Stringy
+
+Promise-based string manipulation library for the browser and node.js.
+
+[![npm version](https://img.shields.io/npm/v/stringy.svg)](https://npmjs.org/package/stringy)
+[![Build Status](https://img.shields.io/travis/stringy/stringy/master.svg)](https://travis-ci.org/stringy/stringy)
+[![Coverage Status](https://img.shields.io/coveralls/stringy/stringy.svg)](https://coveralls.io/r/stringy/stringy)
+![Minified Size](https://img.shields.io/bundlephobia/min/stringy.svg)
+![Minzipped Size](https://img.shields.io/bundlephobia/minzip/stringy.svg)
+![Monthly Downloads](https://img.shields.io/npm/dm/stringy.svg)
+![Snyk Security](https://img.shields.io/snyk/vulnerabilities/npm/stringy.svg)
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Available Methods](#available-methods)
+- [Contribute](#contribute)
+- [License](#license)
+
+## Installation
+
+````bash
+npm install @stringy/main
+
 
 ## Features
 
@@ -21,7 +49,7 @@ Install \_S and watch your strings do backflips:
 
 ```bash
 npm install _S
-```
+````
 
 Or if you're more of a yarn person:
 
