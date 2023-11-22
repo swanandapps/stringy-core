@@ -1,4 +1,4 @@
-# \_S Library - Your String's Best Friend
+# Stringy -  Lodash for Strings!!!
 
 ## Overview
 
