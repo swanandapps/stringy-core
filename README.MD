@@ -1,14 +1,6 @@
-![Stringy Logo](assets/logo.png)
+![Stringy Logo](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/logo%20Medium.jpeg?alt=media&token=1649372d-4e6e-47bb-8e38-4398ddd1b27d)
 
 # Stringy - Call it Lodash for Strings!
-
-## Overview
-
-Stringy: Twist, Turn, and Tangle Your Text! A nimble, tiny and intuitive JavaScript library for efficient string manipulation.
-
-# Stringy
-
-Promise-based string manipulation library for the browser and node.js.
 
 [![npm version](https://img.shields.io/npm/v/stringy.svg)](https://npmjs.org/package/stringy)
 [![Build Status](https://img.shields.io/travis/stringy/stringy/master.svg)](https://travis-ci.org/stringy/stringy)
@@ -17,6 +9,10 @@ Promise-based string manipulation library for the browser and node.js.
 ![Minzipped Size](https://img.shields.io/bundlephobia/minzip/stringy.svg)
 ![Monthly Downloads](https://img.shields.io/npm/dm/stringy.svg)
 ![Snyk Security](https://img.shields.io/snyk/vulnerabilities/npm/stringy.svg)
+
+## Overview
+
+Stringy: Twist, Turn, and Tangle Your Text! A nimble, tiny and intuitive JavaScript library for efficient string manipulation.
 
 ## Table of Contents
 
