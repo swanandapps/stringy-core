@@ -53,26 +53,32 @@ const validString = "(Hello [World])";
 const isValid = isBalancedBrackets(validString); // True, these brackets are in harmony
 ```
 
-### Mask Email Address
+### Masking Sensitive Id's
 
-Protect your email like a superhero protects their identity.
+Give your id's a subtle disguise. You choose the disguise.
+We cover emails, phones, and cards!
 
 ```javascript
-import { maskEmail } from "_S";
-
 const email = "user@example.com";
-const maskedEmail = maskEmail(email); // Secret identity: "u***@example.com"
+const maskedEmail = maskEmail(email, "*"); // Use '*' for disguise
+const dashedEmail = maskEmail(email, "-"); // Use '-' for disguise
+
+console.log(maskedEmail); // 'u***@e******.com'
+console.log(dashedEmail); // 'u---@e------.com'
 ```
 
-### Reverse String
+### Moderate Content
 
-Flip your string on its head, because why not?
+Ensure your text stays in the safe zone with moderate. This function is like the diligent editor of your strings, replacing those not-so-appropriate words with a mask of your choice, ensuring every sentence is audience-friendly.
 
 ```javascript
-import { reverseString } from "_S";
+import { moderate } from "_S";
 
-const original = "desserts";
-const reversed = reverseString(original); // Stressed out? Have some "stressed"
+const originalText = "Stringy is awesome but some words need moderation.";
+const wordsToCensor = ["awesome", "moderation"];
+const safeText = moderate(originalText, wordsToCensor, "*");
+
+console.log(safeText); // 'Stringy is a****** but some words need m*********.'
 ```
 
 ### Turn into a Title
@@ -95,6 +101,23 @@ import { trimWhitespace } from "_S";
 
 const messy = "  Too much space?   ";
 const neat = trimWhitespace(messy); // "Too much space?"
+```
+
+### Word Wrapper
+
+Wrap your text neatly with wordWrap, the function that ensures your strings never spill out of their bounds. Ideal for crafting perfectly formatted paragraphs, be it in a console, an article, or anywhere text needs to stay within the lines.
+
+```javascript
+const longText =
+  "This is a long string that needs to be wrapped at a specific width.";
+const wrappedText = wordWrap(longText, 20);
+
+console.log(wrappedText);
+// Output:
+// This is a long
+// string that needs
+// to be wrapped at a
+// specific width.
 ```
 
 ### Shorten
