@@ -1,4 +1,5 @@
-![Stringy Logo](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/logo%20Background%20Removed.png?alt=media&token=d53f5793-30e8-4122-81d9-869e80a76914)
+
+<p align="center"><a href="kalaam.io" target="_blank" rel="noopener noreferrer"><img width="100" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/logo%20Background%20Removed.png?alt=media&token=d53f5793-30e8-4122-81d9-869e80a76914" alt="Kalaam logo"></a></p>
 
 # Stringy - Call it Lodash for Strings!
 
