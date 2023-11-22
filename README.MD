@@ -1,4 +1,4 @@
-![Stringy Logo](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/logo%20Medium.jpeg?alt=media&token=1649372d-4e6e-47bb-8e38-4398ddd1b27d)
+![Stringy Logo](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/logo%20Background%20Removed.png?alt=media&token=d53f5793-30e8-4122-81d9-869e80a76914)
 
 # Stringy - Call it Lodash for Strings!
 
