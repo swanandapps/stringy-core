@@ -23,22 +23,6 @@ Stringy: Twist, Turn, and Tangle Your Text! A nimble, tiny and intuitive JavaScr
 - [Contribute](#contribute)
 - [License](#license)
 
-## Installation
-
-````bash
-npm install @stringy/main
-
-
-## Features
-
-- **Data Extraction and Analysis**: Like a detective, but for strings. We find numbers, words, and probably Waldo if he's hiding in there.
-- **Specialized String Operations**: It's like string gymnastics – we calculate distances, check balance, and more.
-- **Masking and Security**: We're the mask heroes for your strings, protecting identities and sensitive data.
-- **String Analysis and Validation**: String therapists, at your service. We listen, analyze, and validate.
-- **Case Manipulation**: Ever wanted to shout in text or whisper quietly? We've got the case changes for every mood.
-- **Whitespace Handling**: Managing whitespace like a pro – we trim, we squish, we expand.
-- **Date and Time Formatting**: We're basically time travelers, formatting your dates and times like it's no big deal.
-- **Text Transformations and Utilities**: General magic tricks for your text. Poof! And it's transformed.
 
 ## Installation
 
@@ -225,7 +209,6 @@ const stringB = "sitting";
 const editDistance = levenshteinDistance(stringA, stringB); // 3
 ```
 
-### All Availiable Methods
 
 ## Available Methods
 
@@ -271,10 +254,4 @@ This code is freer than a string in the wild. Check out [appropriate license nam
 
 Running into strings attached? Let us know! Open an issue or send a pull request. We're here to untangle the mess.
 
-## Stay Connected
 
-Got string theories? Share them with us. Follow us on [Social Media Link] and stay updated with all the string magic.
-
-```
-
-```
