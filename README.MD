@@ -21,7 +21,7 @@ It is designed to be used across a spectrum of applications where text processin
 - [Installation](#installation)
 - [Usage](#usage)
 - [Available Methods](#available-methods)
-- [Contribute](#contribute)
+- [How to Contribute](#how-to-contribute)
 - [License](#license)
 
 
@@ -39,7 +39,7 @@ Or if you're more of a yarn person:
 yarn add _S
 ```
 
-## Usage Examples
+## Usage 
 
 ### Extract Numbers from a String
 
@@ -243,11 +243,11 @@ const editDistance = levenshteinDistance(stringA, stringB); // 3
 - **`matchesPattern`**: Checks if a string matches a regular expression pattern.
 - **`spliceString`**: Modifies a string by removing, replacing, or inserting characters.
 
-## Contributing
+## How to Contribute
 
 Got ideas? Tricks up your sleeve? Join the \_S circus! Fork the repo, make your feature branch, and let the pull requests fly!
 
-## Licensing
+## License
 
 This code is freer than a string in the wild. Check out [appropriate license name] for the details.
 
