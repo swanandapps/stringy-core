@@ -21,7 +21,7 @@ From the issue page, click on 'Create a branch for this issue' to work on your c
 
 
 
-## Step 3: Make Changes Locally
+## Step 3: Clone the repo 
 
 
 After creating the branch, clone your repository locally and switch to your new branch to start making changes.
