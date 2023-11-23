@@ -1,109 +1,62 @@
-# How to Contribute to Stringy
+# How to Contribute to Stringy 🧵
 
-Pablo wanted to contribute to stringy, this are the exact steps he follwed to create his first contribution.
+Pablo wanted to make his first open source contribution, and he chose Stringy! Follow these simple steps just like Pablo to get started on your open-source journey. 🚀
 
+## Step 1: Find a Good First Issue 👀
 
-## Step 1: Find a Good First Issue
+→ Begin by looking for issues tagged as 'good first issue'. These are great for getting your feet wet!
 
-Start by finding an issue labeled 'good first issue'. These issues are handpicked for beginners.
+![Good First Issue](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.09.33%E2%80%AFAM.png?alt=media&token=690fa10a-7cff-4dbb-9733-0399b4791ee4)
 
+## Step 2: Create a Branch 🌿
 
-<img width="750" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.09.33%E2%80%AFAM.png?alt=media&token=690fa10a-7cff-4dbb-9733-0399b4791ee4" >
+→ On the issue page, start by creating a branch. This keeps the main codebase safe while you make your changes.
 
+![Create a Branch](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.00.09%E2%80%AFAM.png?alt=media&token=10083294-9cd3-4c86-994b-c98159ca6448)
 
+## Step 3: Clone the Repo 🏡
 
+→ Clone the Stringy repository to your local machine and switch to your new branch to begin coding.
 
+![Clone Repo](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.01%E2%80%AFAM.png?alt=media&token=66464022-2988-45d9-a511-9943aa7ac003)
 
+→ Your new branch will look like this on GitHub:
 
-## Step 2: Create a Branch
+![New Branch](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.18%E2%80%AFAM.png?alt=media&token=55100cae-1978-490d-8654-bbfd19de6eb3)
 
-From the issue page, click on 'Create a branch for this issue' to work on your changes without affecting the main codebase.
+## Step 4: Commit Your Changes 💾
 
+→ Time to save your changes with a good commit message. Don't worry, it's just your branch.
 
-<img width="300" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.00.09%E2%80%AFAM.png?alt=media&token=10083294-9cd3-4c86-994b-c98159ca6448" >
+## Step 5: Push Your Changes ⬆️
 
+→ Push your commits to your GitHub branch. 
 
+## Step 6: Back to GitHub Repo 🔄
 
+→ Upon pushing your changes, you'll see an update in your repository with an option to create a Pull Request.
 
+![Update on Repo](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.05.45%E2%80%AFAM.png?alt=media&token=0730d887-a546-4514-9e83-16ce65900e7b)
 
+## Step 7: Create a Pull Request ➕
 
-## Step 3: Clone the repo 
+→ Now, let the world see your work. Click on the green button or follow the next steps to open a Pull Request.
 
+![Create PR Button](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.05.58%E2%80%AFAM.png?alt=media&token=a109e964-86be-4d21-a07a-44e5165d1b42)
 
-After creating the branch, clone your repository locally and switch to your new branch to start making changes.
+→ Detail your changes and submit your PR:
 
+![Create Pull Request](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.06.52%E2%80%AFAM.png?alt=media&token=2cf21b7f-2724-45ba-be5c-5bd5c1e8eec6)
 
-<img width="300" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.01%E2%80%AFAM.png?alt=media&token=66464022-2988-45d9-a511-9943aa7ac003" >
+## Step 8: PR Opened 📬
 
+→ Your PR is now waiting for review. Nice work!
 
+![PR Open](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.07.13%E2%80%AFAM.png?alt=media&token=580ddf86-2046-453a-9ad5-9576d051f9ee)
 
-Your branch should be visible like this on github. 
+## Step 9: Merge and Celebrate 🎉
 
-<img width="300" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.18%E2%80%AFAM.png?alt=media&token=55100cae-1978-490d-8654-bbfd19de6eb3" >
+→ After your PR is reviewed and approved, it'll be merged. Congratulations, you're a Stringy contributor!
 
+Now, take a moment like Pablo to enjoy your accomplishment. You've taken a big step in your open-source journey with Stringy. Keep it up! 🌟
 
-
-## Step 4: Commit Your Changes ( To be done locally )
-
-Once you have coded your changes, commit them with a meaningful message. Dont worry you are not commiting or pushing to main repo. even if you delete everything, its still wonderful out there.
-
-
-
-
-
-## Step 5: Push Your Changes ( To be done locally )
-
-Push your committed changes to your branch on GitHub.
-
-
-
-
-
-## Step 6: Back to Github repo
-
-Go back to the Stringy repository on GitHub, you will now see a message notifying you about the latest push. We now need to open a Pull Request.
-You can directly do it from here by clicking green button or via our next step.
-
-<img width="750" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.05.45%E2%80%AFAM.png?alt=media&token=0730d887-a546-4514-9e83-16ce65900e7b" >
-
-
-
-
-
-
-## Step 7: Create a Pull Request
-
-After pushing your changes, GitHub will provide a quick option to open a new pull request. Use it to create one with your updates.
-
-
-<img width="750" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.05.58%E2%80%AFAM.png?alt=media&token=a109e964-86be-4d21-a07a-44e5165d1b42" >
-
-
-Here you fill in the details about the changes you coded, and create the pull request.
-
-<img width="750" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.06.52%E2%80%AFAM.png?alt=media&token=2cf21b7f-2724-45ba-be5c-5bd5c1e8eec6" >
-
-
-
-
-
-
-## Step 8: Pull Request Opened
-
-Now your pull request is open, and the maintainers of Stringy can review your contribution.
-
-
-<img width="750" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.07.13%E2%80%AFAM.png?alt=media&token=580ddf86-2046-453a-9ad5-9576d051f9ee" >
-
-
-
-
-
-
-## Step 9: Merge and Celebrate
-
-Once your pull request is reviewed and approved, it'll be merged into the main codebase. Congratulations, you've contributed to Stringy!
-
-
-
-Now, just like Pablo, you're ready to make your mark on Stringy and the open-source world. Happy coding!
