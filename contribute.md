@@ -12,12 +12,18 @@ Start by finding an issue labeled 'good first issue'. These issues are handpicke
 
 
 
+
+
+
 ## Step 2: Create a Branch
 
 From the issue page, click on 'Create a branch for this issue' to work on your changes without affecting the main codebase.
 
 
 <img width="300" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.00.09%E2%80%AFAM.png?alt=media&token=10083294-9cd3-4c86-994b-c98159ca6448" >
+
+
+
 
 
 
@@ -31,13 +37,17 @@ After creating the branch, clone your repository locally and switch to your new 
 
 
 
+Your branch should be visible like this on github. 
+
 <img width="300" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.18%E2%80%AFAM.png?alt=media&token=55100cae-1978-490d-8654-bbfd19de6eb3" >
 
 
 
 ## Step 4: Commit Your Changes ( To be done locally )
 
-Once you have coded your changes, commit them with a meaningful message.
+Once you have coded your changes, commit them with a meaningful message. Dont worry you are not commiting or pushing to main repo. even if you delete everything, its still wonderful out there.
+
+
 
 
 
@@ -46,12 +56,18 @@ Once you have coded your changes, commit them with a meaningful message.
 Push your committed changes to your branch on GitHub.
 
 
-## Step 6: Open a Pull Request
 
-Go back to the Stringy repository on GitHub, navigate to 'Pull Requests', and hit 'New Pull Request'. Compare your branch to the main branch, fill in the details, and create the pull request.
 
+
+## Step 6: Back to Github repo
+
+Go back to the Stringy repository on GitHub, you will now see a message notifying you about the latest push. We now need to open a Pull Request.
+You can directly do it from here by clicking green button or via our next step.
 
 <img width="750" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.05.45%E2%80%AFAM.png?alt=media&token=0730d887-a546-4514-9e83-16ce65900e7b" >
+
+
+
 
 
 
@@ -63,8 +79,12 @@ After pushing your changes, GitHub will provide a quick option to open a new pul
 <img width="750" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.05.58%E2%80%AFAM.png?alt=media&token=a109e964-86be-4d21-a07a-44e5165d1b42" >
 
 
+Here you fill in the details about the changes you coded, and create the pull request.
 
 <img width="750" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.06.52%E2%80%AFAM.png?alt=media&token=2cf21b7f-2724-45ba-be5c-5bd5c1e8eec6" >
+
+
+
 
 
 
@@ -74,6 +94,9 @@ Now your pull request is open, and the maintainers of Stringy can review your co
 
 
 <img width="750" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.07.13%E2%80%AFAM.png?alt=media&token=580ddf86-2046-453a-9ad5-9576d051f9ee" >
+
+
+
 
 
 
