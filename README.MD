@@ -4,12 +4,9 @@
 # Stringy - Call it Lodash for Strings!
 
 [![npm version](https://img.shields.io/npm/v/stringy.svg)](https://npmjs.org/package/stringy)
-[![Build Status](https://img.shields.io/travis/stringy/stringy/master.svg)](https://travis-ci.org/stringy/stringy)
-[![Coverage Status](https://img.shields.io/coveralls/stringy/stringy.svg)](https://coveralls.io/r/stringy/stringy)
 ![Minified Size](https://img.shields.io/bundlephobia/min/stringy.svg)
 ![Minzipped Size](https://img.shields.io/bundlephobia/minzip/stringy.svg)
 ![Monthly Downloads](https://img.shields.io/npm/dm/stringy.svg)
-![Snyk Security](https://img.shields.io/snyk/vulnerabilities/npm/stringy.svg)
 
 ## Overview
 
