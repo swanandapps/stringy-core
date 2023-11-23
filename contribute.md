@@ -19,10 +19,10 @@ From the issue page, click on 'Create a branch for this issue' to work on your c
 After creating the branch, clone your repository locally and switch to your new branch to start making changes.
 
 
-<img width="400" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.01%E2%80%AFAM.png?alt=media&token=66464022-2988-45d9-a511-9943aa7ac003" >
+<img width="300" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.01%E2%80%AFAM.png?alt=media&token=66464022-2988-45d9-a511-9943aa7ac003" >
 
 
-<img width="400" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.18%E2%80%AFAM.png?alt=media&token=55100cae-1978-490d-8654-bbfd19de6eb3" >
+<img width="300" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.18%E2%80%AFAM.png?alt=media&token=55100cae-1978-490d-8654-bbfd19de6eb3" >
 
 
 
