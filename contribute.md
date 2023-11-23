@@ -6,7 +6,7 @@ Pablo wanted to contribute to stringy, this are the exact steps he follwed to cr
 
 Start by finding an issue labeled 'good first issue'. These issues are handpicked for beginners.
 
-<img width="300" src="https://i.ibb.co/Dg3jzC5/Logo.png](https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.09.33%E2%80%AFAM.png?alt=media&token=690fa10a-7cff-4dbb-9733-0399b4791ee4" >
+<img width="300" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.09.33%E2%80%AFAM.png?alt=media&token=690fa10a-7cff-4dbb-9733-0399b4791ee4" >
 
 ## Step 2: Create a Branch
 
