@@ -249,7 +249,7 @@ Got ideas? Tricks up your sleeve? Join the \_S circus! Fork the repo, make your 
 
 ## License
 
-This code is freer than a string in the wild. Check out [appropriate license name] for the details.
+This code is freer than a string in the wild. Check out MIT License for the details.
 
 ## Support
 
