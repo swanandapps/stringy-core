@@ -249,6 +249,8 @@ const editDistance = levenshteinDistance(stringA, stringB); // 3
 
 Got ideas? Tricks up your sleeve? Join the \_S circus! Fork the repo, make your feature branch, and let the pull requests fly!
 
+[Check out our contribution guide for more details.](CONTRIBUTE.md)
+
 ## License
 
 This code is freer than a string in the wild. Check out [appropriate license name] for the details.
