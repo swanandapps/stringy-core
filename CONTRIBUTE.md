@@ -1,8 +1,10 @@
 # Contributing to Stringy
 
 **Stringy weaves together the best of industry-standard open-source practices** ✨ **with a touch of friendliness** ❤️, **making your contributions meaningful and easy on the brain.**
+<br />
+<br />
 
-## 🚀 Here's How to do that:
+## 🚀 Start Here:
 <br />
 
 ## 🛤️ Contribution Stations 
