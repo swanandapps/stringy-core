@@ -2,7 +2,7 @@
 
 **Stringy weaves together the best of industry-standard open-source practices** ✨ **with a touch of friendliness** ❤️, **making your contributions meaningful and easy on the brain.**
 
-### 🚀 Here's How to do that:
+## 🚀 Here's How to do that:
 <br />
 
 ## 🛤️ Contribution Stations 
@@ -10,7 +10,7 @@
 In the Stringy codebase, you'll find several "Contribution Stations". These are specially marked sections where we encourage contributions, particularly from those who are new to open source or to the project.
 <br />
 
-### What is a Contribution Station?
+## What is a Contribution Station?
 
 A Contribution Station is a segment of code, marked with a special comment, where we invite you to contribute functions or enhancements. Each station provides:
 
@@ -30,10 +30,10 @@ function stringReverse(string) {
 ```
 <br />
 
-### 🧵 How to Contribute at a Station 
+## 🧵 How to Contribute at a Station 
 <br />
 
-## Step 1: 👀 Find the Contribution Station suitable for you from Good First Issue 
+### Step 1: 👀 Find the Contribution Station suitable for you from Good First Issue 
 
 <br />
 → Begin by looking for issues tagged as 'good first issue'. These are great for getting warmed up!
@@ -42,7 +42,8 @@ function stringReverse(string) {
 <img src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.00.09%E2%80%AFAM.png?alt=media&token=10083294-9cd3-4c86-994b-c98159ca6448" width="300">
 <br />
 <br />
-## Step 2: 🌿 Create a Branch 
+
+### Step 2: 🌿 Create a Branch 
 <br />
 
 → On the issue page, start by creating a branch. This keeps the main codebase safe while you make your changes.
@@ -51,7 +52,8 @@ function stringReverse(string) {
 <img src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.00.09%E2%80%AFAM.png?alt=media&token=10083294-9cd3-4c86-994b-c98159ca6448" width="300">
 <br />
 <br />
-## Step 3: 🏡 Clone the Repo 
+
+### Step 3: 🏡 Clone the Repo 
 <br />
 
 → Clone the Stringy repository to your local machine and switch to your new branch to begin coding.
@@ -65,18 +67,21 @@ function stringReverse(string) {
 <img src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.04.18%E2%80%AFAM.png?alt=media&token=55100cae-1978-490d-8654-bbfd19de6eb3" width="300">
 <br />
 <br />
-## Step 4: 💾 Commit Your Changes 
+
+### Step 4: 💾 Commit Your Changes 
 <br />
 
 → Time to save your changes with a good commit message. Don't worry, it's just your branch.
 <br />
 <br />
-## Step 5: ⬆️ Push Your Changes 
+
+### Step 5: ⬆️ Push Your Changes 
 
 → Push your commits to your GitHub branch. 
 <br />
 <br />
-## Step 6: 🔄 Back to GitHub Repo 
+
+### Step 6: 🔄 Back to GitHub Repo 
 <br />
 
 → Upon pushing your changes, you'll see an update in your repository with an option to create a Pull Request.
@@ -85,7 +90,8 @@ function stringReverse(string) {
 <img src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.05.45%E2%80%AFAM.png?alt=media&token=0730d887-a546-4514-9e83-16ce65900e7b" width="300">
 <br />
 <br />
-## Step 7: ➕ Open a Pull Request 
+
+### Step 7: ➕ Open a Pull Request 
 <br />
 
 → Now, let the world see your work. Click on the green button or follow the next steps to open a Pull Request.
@@ -100,7 +106,8 @@ function stringReverse(string) {
 <img src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.06.52%E2%80%AFAM.png?alt=media&token=2cf21b7f-2724-45ba-be5c-5bd5c1e8eec6" width="300">
 <br />
 <br />
-## Step 8: 📬 PR Opened 
+
+### Step 8: 📬 PR Opened 
 
 → Your PR is now waiting for review. Nice work!
 <br />
@@ -109,7 +116,8 @@ function stringReverse(string) {
 
 <br />
 <br />
-## Step 9: 🎉 Merge and Celebrate 
+
+### Step 9: 🎉 Merge and Celebrate 
 <br />
 
 → After your PR is reviewed and approved, it'll be merged. Congratulations, you're a Stringy contributor!
