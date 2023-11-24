@@ -2,18 +2,20 @@
 
 
 
-## Stringy weaves together the best of industry-standard open-source practices 🌟 with a touch of friendliness ❤️, making your contributions meaningful and easy on brain.
+**Stringy weaves together the best of industry-standard open-source practices** ✨ **with a touch of friendliness** ❤️, **making your contributions meaningful and easy on the brain.**
 
 
 
 ### 🚀 Here's How to do that:
 
+<br>
 
 
 
 ## 🛤️ Contribution Stations 
 
 In the Stringy codebase, you'll find several "Contribution Stations". These are specially marked sections where we encourage contributions, particularly from those who are new to open source or to the project.
+<br>
 
 ### What is a Contribution Station?
 
