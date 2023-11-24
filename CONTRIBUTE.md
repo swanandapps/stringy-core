@@ -72,19 +72,22 @@ function stringReverse(string) {
 
 → Time to save your changes with a good commit message. Don't worry, it's just your branch.
 <br>
-
+<br />
+<br />
 ## Step 5: ⬆️ Push Your Changes 
 
 → Push your commits to your GitHub branch. 
 <br>
-
+<br />
+<br />
 ## Step 6: 🔄 Back to GitHub Repo 
 
 → Upon pushing your changes, you'll see an update in your repository with an option to create a Pull Request.
 <br>
 
 <img src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/stringy%2FScreenshot%202023-11-23%20at%206.05.45%E2%80%AFAM.png?alt=media&token=0730d887-a546-4514-9e83-16ce65900e7b" width="300">
-
+<br />
+<br />
 ## Step 7: ➕ Open a Pull Request 
 
 → Now, let the world see your work. Click on the green button or follow the next steps to open a Pull Request.
