@@ -1,9 +1,11 @@
 {
-  "name": "mylib",
+  "name": "stringy",
   "version": "0.0.8",
-  "description": "",
+  "description": "Stringy: A nimble and intuitive JavaScript library for efficient string manipulation.",
   "main": "index.js",
   "type": "module",
+  "author": "Swanand Kadam swanandkadam828@gmail.com",
+
   "scripts": {
     "test": "jest"
   },

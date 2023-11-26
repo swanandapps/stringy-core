@@ -1,13 +1,13 @@
 // Importing functions from category files
-import * as textCaseManipulation from "./lib/textCaseManipulation";
-import * as textCleaning from "./lib/textCleaning";
-import * as textFormatting from "./lib/textFormatting";
-import * as textMaskingAndSecurity from "./lib/textMaskingAndSecurity";
-import * as textMetadataAndExtraction from "./lib/textMetadataAndExtraction";
-import * as textSpecializedOperations from "./lib/textSpecializedOperations";
-import * as textAnalysisAndValidation from "./lib/textAnalysisAndValidation";
-import * as textTransformations from "./lib/textTransformations";
-import * as textGeneration from "./lib/textGeneration";
+import * as textCaseManipulation from "./lib/textCaseManipulation.js";
+import * as textCleaning from "./lib/textCleaning.js";
+import * as textFormatting from "./lib/textFormatting.js";
+import * as textMaskingAndSecurity from "./lib/textMaskingAndSecurity.js";
+import * as textMetadataAndExtraction from "./lib/textMetadataAndExtraction.js";
+import * as textSpecializedOperations from "./lib/textSpecializedOperations.js";
+import * as textAnalysisAndValidation from "./lib/textAnalysisAndValidation.js";
+import * as textTransformations from "./lib/textTransformations.js";
+import * as textGeneration from "./lib/textGeneration.js";
 
 // Combining all functions into a single object
 const _s = {
@@ -23,13 +23,13 @@ const _s = {
 };
 
 // Exporting individual functions and the _s object
-export * from "./lib/textCaseManipulation";
-export * from "./lib/textCleaning";
-export * from "./lib/textFormatting";
-export * from "./lib/textMaskingAndSecurity";
-export * from "./lib/textMetadataAndExtraction";
-export * from "./lib/textSpecializedOperations";
-export * from "./lib/textAnalysisAndValidation";
-export * from "./lib/textTransformations";
-export * from "./lib/textGeneration";
+export * from "./lib/textCaseManipulation.js";
+export * from "./lib/textCleaning.js";
+export * from "./lib/textFormatting.js";
+export * from "./lib/textMaskingAndSecurity.js";
+export * from "./lib/textMetadataAndExtraction.js";
+export * from "./lib/textSpecializedOperations.js";
+export * from "./lib/textAnalysisAndValidation.js";
+export * from "./lib/textTransformations.js";
+export * from "./lib/textGeneration.js";
 export { _s };
