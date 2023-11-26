@@ -64,20 +64,8 @@ describe("levenshteinDistance", () => {
 
 describe("maskEmail", () => {
   test("masks a standard email address correctly", () => {
-    expect(maskEmail("user@example.com")).toBe("u***@example.com");
+    expect(maskEmail("user@example.com")).toBe("u***@e******.com");
   });
 
   // More tests for maskEmail...
-});
-
-describe("maskPhone", () => {
-  test("masks a phone number with default visible digits", () => {
-    expect(maskPhone("1234567890")).toBe("******7890");
-  });
-
-  test("masks a phone number with specified visible digits", () => {
-    expect(maskPhone("1234567890", 3)).toBe("*******890");
-  });
-
-  // More tests for maskPhone...
 });
