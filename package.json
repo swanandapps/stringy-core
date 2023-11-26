@@ -1,5 +1,5 @@
 {
-  "name": "stringy",
+  "name": "stringy-core",
   "version": "0.0.8",
   "description": "Stringy: A nimble and intuitive JavaScript library for efficient string manipulation.",
   "main": "index.js",
