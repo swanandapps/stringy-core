@@ -25,16 +25,16 @@ Designed to ace string manipulation, a crucial aspect in many applications. It's
 
 ## Installation
 
-Stringy goes by the name \_S in npm, Install it and watch your strings do backflips:
+Install stringy-core package, exportable as \_S and watch your strings do backflips:
 
 ```bash
-npm install _S
+npm install stringy-core
 ```
 
 Or if you're more of a yarn person:
 
 ```bash
-yarn add _S
+yarn add stringy-core
 ```
 
 ## Usage
