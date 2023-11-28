@@ -6,6 +6,7 @@ import {
   levenshteinDistance,
   maskEmail,
   maskPhone,
+  extractHashtags,
 } from "../index";
 
 describe("capitalize", () => {
