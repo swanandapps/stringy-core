@@ -69,3 +69,25 @@ describe("maskEmail", () => {
 
   // More tests for maskEmail...
 });
+
+describe("maskPhone", () => {
+  test("masks phone number with default visibleDigits", () => {
+    const phoneNumber = "1234567890";
+    expect(maskPhone(phoneNumber)).toBe("******7890");
+  });
+
+  test("masks phone number with custom visibleDigits", () => {
+    const phoneNumber = "9876543210";
+    const visibleDigits = 3;
+    expect(maskPhone(phoneNumber, visibleDigits)).toBe("*******210");
+  });
+
+  test("throws error for invalid phone number with special characters", () => {
+    const invalidPhoneNumber = "1-23-45-67-890";
+    expect(() => maskPhone(invalidPhoneNumber)).toThrowError(
+      "Invalid input. Please provide a non-negative integer for visibleDigits, and ensure it is not greater than the length of the phone number."
+    );
+  });
+
+  // Add more test cases as needed...
+});
