@@ -7,6 +7,7 @@ import {
   maskEmail,
   maskPhone,
   extractHashtags,
+  formatTime,
 } from "../index";
 
 describe("capitalize", () => {
@@ -92,6 +93,7 @@ describe("maskPhone", () => {
 
   // Add more test cases as needed...
 });
+
 describe("extractHashtags", () => {
   test("extracts hashtags from a string containing multiple hashtags", () => {
     expect(extractHashtags("This is a #sample string with #hashtags")).toEqual(["#sample", "#hashtags"]);
@@ -106,4 +108,20 @@ describe("extractHashtags", () => {
   })
 
   // More tests for extractHashtags...
+});
+
+describe("formatTime", () => {
+    test("formats a time string", () => {
+      expect(formatTime("2023-03-01T15:30:00")).toBe("3:30 PM");
+    });
+
+    test("formats a time string with locale", () => {
+        expect(formatTime("2023-03-01T15:30:00", "en-IN")).toBe("3:30 pm");
+    });
+
+    test("formats a time string with invalid date", () => {
+        expect(formatTime("abcd", "en-IN")).toBe("Invalid Date");
+    })
+
+    // More test for formatTime...
 });
