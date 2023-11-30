@@ -6,6 +6,7 @@ import {
   levenshteinDistance,
   maskEmail,
   maskPhone,
+  extractHashtags,
 } from "../index";
 
 describe("capitalize", () => {
@@ -68,4 +69,20 @@ describe("maskEmail", () => {
   });
 
   // More tests for maskEmail...
+});
+
+describe("extractHashtags", () => {
+  test("extracts hashtags from a string containing multiple hashtags", () => {
+    expect(extractHashtags("This is a #sample string with #hashtags")).toEqual(["#sample", "#hashtags"]);
+  });
+  
+  test("returns an empty array when the string contains no hashtags", () => {
+    expect(extractHashtags("No hashtags here!")).toEqual([]);
+  });
+
+  test("returns an empty array when the string is not a string", ()=> {
+    expect(extractHashtags(1234)).toEqual([]);
+  })
+
+  // More tests for extractHashtags...
 });

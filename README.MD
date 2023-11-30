@@ -1,6 +1,6 @@
 <p align="center"><a href="kalaam.io" target="_blank" rel="noopener noreferrer"><img width="100" src="https://firebasestorage.googleapis.com/v0/b/topdev-93530.appspot.com/o/logo%20Background%20Removed.png?alt=media&token=d53f5793-30e8-4122-81d9-869e80a76914" alt="Kalaam logo"></a></p>
 
-# Stringy ( \_S )
+# Stringy
 
 ✨ Lodash but for Strings!
 
@@ -25,7 +25,7 @@ Designed to ace string manipulation, a crucial aspect in many applications. It's
 
 ## Installation
 
-Install stringy-core package, exportable as \_S and watch your strings do backflips:
+Install stringy-core package and watch your strings do backflips:
 
 ```bash
 npm install stringy-core
@@ -44,7 +44,7 @@ yarn add stringy-core
 Got numbers hiding in your text? We'll find them. It's like hide and seek, but with digits.
 
 ```javascript
-import { extractNumbers } from "_S";
+import { extractNumbers } from "stringy-core";
 
 const text = "Order 500 units of item 1234.";
 const numbers = extractNumbers(text); // Found them! [500, 1234]
@@ -55,7 +55,7 @@ const numbers = extractNumbers(text); // Found them! [500, 1234]
 Ever wonder if your brackets are socially balanced? Let's find out together.
 
 ```javascript
-import { isBalancedBrackets } from "_S";
+import { isBalancedBrackets } from "stringy-core";
 
 const validString = "(Hello [World])";
 const isValid = isBalancedBrackets(validString); // True, these brackets are in harmony
@@ -80,7 +80,7 @@ console.log(dashedEmail); // 'u---@e------.com'
 Ensure your text stays in the safe zone with moderate. This function is like the diligent editor of your strings, replacing those not-so-appropriate words with a mask of your choice, ensuring every sentence is audience-friendly.
 
 ```javascript
-import { moderate } from "_S";
+import { moderate } from "stringy-core";
 
 const originalText = "Stringy is awesome but some words need moderation.";
 const wordsToCensor = ["awesome", "moderation"];
@@ -94,7 +94,7 @@ console.log(safeText); // 'Stringy is a****** but some words need m*********.'
 Give your text the royal treatment – each word's first letter ascends to its uppercase throne.
 
 ```javascript
-import { toTitleCase } from "_S";
+import { toTitleCase } from "stringy-core";
 
 const humbleText = "i am stringy";
 const titled = toTitleCase(humbleText); // "I Am Stringy"
@@ -105,7 +105,7 @@ const titled = toTitleCase(humbleText); // "I Am Stringy"
 Give your string a neat trim, because everyone loves a well-groomed text.
 
 ```javascript
-import { trimWhitespace } from "_S";
+import { trimWhitespace } from "stringy-core";
 
 const messy = "  Too much space?   ";
 const neat = trimWhitespace(messy); // "Too much space?"
@@ -133,7 +133,7 @@ console.log(wrappedText);
 trims your string to the desired length and tastefully tops it off with an ellipsis (...) and a custom ending, hinting there's more for the eager reader.
 
 ```javascript
-import { shorten } from "_S";
+import { shorten } from "stringy-core";
 
 const blog =
   "Meet Stringy, the latest JavaScript library designed to revolutionize how we handle strings. Whether you're a seasoned developer";
@@ -146,7 +146,7 @@ const shortened = shorten(blog, 40, "Read More");
 Create a custom string with a sprinkle of unpredictability. Perfect for generating unique IDs, playful codes, or testing your apps with diverse inputs.
 
 ```javascript
-import { randomString } from "_S";
+import { randomString } from "stringy-core";
 
 const desiredLength = 10;
 const characters =
@@ -161,7 +161,7 @@ Dive into a world where each call brings a surprise, tailor-made just for you! �
 a treasure hunt in your strings, where you discover the hidden postions of your sought-after substrings.
 
 ```javascript
-import { findPositions } from "_S";
+import { findPositions } from "stringy-core";
 
 const narrative = "Echoes in the echoes in the echoes";
 const echoLocations = findPositions(narrative, "echoes"); // [0, 14, 28]
@@ -172,7 +172,7 @@ const echoLocations = findPositions(narrative, "echoes"); // [0, 14, 28]
 Spruce up your digits with formatNumber – it's like a spa day for your numbers, turning them from plain to absolutely fabulous, all dressed up with commas and style.
 
 ```javascript
-import { formatNumber } from "_S";
+import { formatNumber } from "stringy-core";
 
 const largeNumber = 1234567;
 const beautifiedNumber = formatNumber(largeNumber); // "1,234,567"
@@ -183,7 +183,7 @@ const beautifiedNumber = formatNumber(largeNumber); // "1,234,567"
 Step into the time machine with formatDateTime. Transform dates and times from mundane to meaningful, showcasing them in a format that speaks to humans, not just machines.
 
 ```javascript
-import { formatDateTime } from "_S";
+import { formatDateTime } from "stringy-core";
 
 const eventTimestamp = new Date("2023-07-21T19:30:00");
 const formattedDateTime = formatDateTime(eventTimestamp); // "July 21, 2023, 7:30 PM"
@@ -194,7 +194,7 @@ const formattedDateTime = formatDateTime(eventTimestamp); // "July 21, 2023, 7:3
 Navigate the tightrope of syntax with isBalancedBrackets. It's like a gymnast gracefully ensuring every leap has a landing – every open bracket finds its closing match.
 
 ```javascript
-import { isBalancedBrackets } from "_S";
+import { isBalancedBrackets } from "stringy-core";
 
 const codeSnippet = "{[()]}";
 const isBalanced = isBalancedBrackets(codeSnippet); // true
@@ -205,7 +205,7 @@ const isBalanced = isBalancedBrackets(codeSnippet); // true
 Measure the steps between strings with levenshteinDistance. It's like having a pedometer for your text, counting the edits required to transition from one string to another.
 
 ```javascript
-import { levenshteinDistance } from "_S";
+import { levenshteinDistance } from "stringy-core";
 
 const stringA = "kitten";
 const stringB = "sitting";
