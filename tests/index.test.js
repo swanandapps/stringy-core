@@ -6,6 +6,7 @@ import {
   levenshteinDistance,
   maskEmail,
   maskPhone,
+  removeWhitespace
 } from "../index";
 
 describe("capitalize", () => {
@@ -69,3 +70,18 @@ describe("maskEmail", () => {
 
   // More tests for maskEmail...
 });
+
+describe("Testing the removeWhitespace function", () => {
+  test("Adding whitespace in front of the string", () => {
+    expect(removeWhitespace("   HelloWorld!")).toBe("HelloWorld!");
+  })
+  test("Adding whitespace in end of the string", () => {
+    expect(removeWhitespace("HelloWorld!   ")).toBe("HelloWorld!");
+  })
+  test("Adding whitespace only in between the words of the string", () => {
+    expect(removeWhitespace("Hello    World!")).toBe("HelloWorld!");
+  })
+  test("Adding whitespace in between of the string", () => {
+    expect(removeWhitespace("   Hello   World!    ")).toBe("HelloWorld!");
+  })
+})
