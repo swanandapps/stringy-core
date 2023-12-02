@@ -6,6 +6,9 @@ import {
   levenshteinDistance,
   maskEmail,
   maskPhone,
+  invertCase,
+  extractHashtags,
+  formatTime,
   removeWhitespace
 } from "../index";
 
@@ -69,6 +72,107 @@ describe("maskEmail", () => {
   });
 
   // More tests for maskEmail...
+});
+
+describe("invertCase", () => {
+  test("Inverts the case of each character in a given string", () => {
+    expect(invertCase("Hello World")).toBe("hELLO wORLD");
+  });
+
+  test("Check for whitespace", () => {
+    expect(invertCase(" ")).toBe(" ");
+  });
+
+  test("Check for all uppercase words", () => {
+    expect(invertCase("ABCD")).toBe("abcd");
+  });
+
+  test("Check for all lowercase words", () => {
+    expect(invertCase("abcd")).toBe("ABCD");
+  });
+
+  test("Check for Mixed Case with Numbers and Symbols", () => {
+    expect(invertCase("aBc 123 !@#")).toBe("AbC 123 !@#");
+  });
+
+  test("Check for String with Special Characters", () => {
+    expect(invertCase("HeLLo @WorLD!")).toBe("hEllO @wORld!");
+  });
+
+  test("Check for String with Whitespaces", () => {
+    expect(invertCase("  InVeRt   CaSe  ")).toBe("  iNvErT   cAsE  ");
+  });
+
+  test("Check for Long String", () => {
+    expect(
+      invertCase(
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      )
+    ).toBe(
+      "lOREM iPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING INDUSTRY."
+    );
+  });
+
+  test("Check for String with Non-alphabetic Characters", () => {
+    expect(invertCase("!@#%^&*()")).toBe("!@#%^&*()");
+  });
+
+  test("Check for String with Newline and Tab Characters", () => {
+    expect(invertCase("Hello\n\tWorld")).toBe("hELLO\n\twORLD");
+  });
+  
+describe("maskPhone", () => {
+  test("masks phone number with default visibleDigits", () => {
+    const phoneNumber = "1234567890";
+    expect(maskPhone(phoneNumber)).toBe("******7890");
+  });
+
+  test("masks phone number with custom visibleDigits", () => {
+    const phoneNumber = "9876543210";
+    const visibleDigits = 3;
+    expect(maskPhone(phoneNumber, visibleDigits)).toBe("*******210");
+  });
+
+  test("throws error for invalid phone number with special characters", () => {
+    const invalidPhoneNumber = "1-23-45-67-890";
+    expect(() => maskPhone(invalidPhoneNumber)).toThrowError(
+      "Invalid input. Please provide a non-negative integer for visibleDigits, and ensure it is not greater than the length of the phone number."
+    );
+  });
+
+  // Add more test cases as needed...
+});
+
+describe("extractHashtags", () => {
+  test("extracts hashtags from a string containing multiple hashtags", () => {
+    expect(extractHashtags("This is a #sample string with #hashtags")).toEqual(["#sample", "#hashtags"]);
+  });
+  
+  test("returns an empty array when the string contains no hashtags", () => {
+    expect(extractHashtags("No hashtags here!")).toEqual([]);
+  });
+
+  test("returns an empty array when the string is not a string", ()=> {
+    expect(extractHashtags(1234)).toEqual([]);
+  })
+
+  // More tests for extractHashtags...
+});
+
+describe("formatTime", () => {
+    test("formats a time string", () => {
+      expect(formatTime("2023-03-01T15:30:00")).toBe("3:30 PM");
+    });
+
+    test("formats a time string with locale", () => {
+        expect(formatTime("2023-03-01T15:30:00", "en-IN")).toBe("3:30 pm");
+    });
+
+    test("formats a time string with invalid date", () => {
+        expect(formatTime("abcd", "en-IN")).toBe("Invalid Date");
+    })
+
+    // More test for formatTime...
 });
 
 describe("Testing the removeWhitespace function", () => {
