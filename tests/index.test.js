@@ -9,6 +9,7 @@ import {
   invertCase,
   extractHashtags,
   formatTime,
+  removeWhitespace
 } from "../index";
 
 describe("capitalize", () => {
@@ -119,6 +120,7 @@ describe("invertCase", () => {
   test("Check for String with Newline and Tab Characters", () => {
     expect(invertCase("Hello\n\tWorld")).toBe("hELLO\n\twORLD");
   });
+});
   
 describe("maskPhone", () => {
   test("masks phone number with default visibleDigits", () => {
@@ -173,3 +175,18 @@ describe("formatTime", () => {
 
     // More test for formatTime...
 });
+
+describe("Testing the removeWhitespace function", () => {
+  test("Adding whitespace in front of the string", () => {
+    expect(removeWhitespace("   HelloWorld!")).toBe("HelloWorld!");
+  })
+  test("Adding whitespace in end of the string", () => {
+    expect(removeWhitespace("HelloWorld!   ")).toBe("HelloWorld!");
+  })
+  test("Adding whitespace only in between the words of the string", () => {
+    expect(removeWhitespace("Hello    World!")).toBe("HelloWorld!");
+  })
+  test("Adding whitespace in between of the string", () => {
+    expect(removeWhitespace("   Hello   World!    ")).toBe("HelloWorld!");
+  })
+})
