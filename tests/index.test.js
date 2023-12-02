@@ -120,6 +120,7 @@ describe("invertCase", () => {
   test("Check for String with Newline and Tab Characters", () => {
     expect(invertCase("Hello\n\tWorld")).toBe("hELLO\n\twORLD");
   });
+});
   
 describe("maskPhone", () => {
   test("masks phone number with default visibleDigits", () => {
