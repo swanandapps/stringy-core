@@ -21,7 +21,8 @@ import {
   extractIPv6Addresses,
   extractFilePaths,
   extractDomainNames,
-  extractJSONStrings
+  extractJSONStrings,
+  removeWhitespace
 } from "../index";
 
 describe("capitalize", () => {
@@ -344,3 +345,22 @@ describe("extractJSONStrings", () => {
   });
 });
 
+describe("removeWhitespace", () => {
+    test("removes whitespace from a string", () => {
+        expect(removeWhitespace(' Hello  World from STRING  Utils! ')).toEqual('HelloWorldfromSTRINGUtils!');
+    });
+
+    test("handles a string with multiple spaces between words", () => {
+        expect(removeWhitespace('Multiple    Spaces    Between    Words')).toEqual('MultipleSpacesBetweenWords');
+    });
+
+    test("handles an empty string", () => {
+        expect(removeWhitespace('')).toEqual('');
+    });
+
+    test("handles an number", () => {
+      expect(removeWhitespace(123)).toEqual('Invalid String');
+    });
+
+    // Add more test cases as needed...
+});
