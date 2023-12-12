@@ -364,3 +364,51 @@ describe("removeWhitespace", () => {
 
     // Add more test cases as needed...
 });
+
+describe("trimStart", () => {
+  test("removes leading whitespace from a string", () => {
+    expect(trimStart('  Hello World')).toEqual('Hello World');
+  });
+
+  test("handles a string with only whitespace", () => {
+    expect(trimStart('    ')).toEqual('');
+  });
+
+  test("handles a string with no leading whitespace", () => {
+    expect(trimStart('No Leading Whitespace')).toEqual('No Leading Whitespace');
+  });
+
+  test("handles an empty string", () => {
+    expect(trimStart('')).toEqual('');
+  });
+
+  test("handles a string with mixed whitespace characters", () => {
+    expect(trimStart('\t\r\n Leading Whitespace')).toEqual('Leading Whitespace');
+  });
+
+  // Add more test cases as needed...
+});
+
+describe("trimEnd", () => {
+  test("removes trailing whitespace from a string", () => {
+    expect(trimEnd('Hello World  ')).toEqual('Hello World');
+  });
+
+  test("handles a string with only whitespace", () => {
+    expect(trimEnd('    ')).toEqual('');
+  });
+
+  test("handles a string with no trailing whitespace", () => {
+    expect(trimEnd('No Trailing Whitespace')).toEqual('No Trailing Whitespace');
+  });
+
+  test("handles an empty string", () => {
+    expect(trimEnd('')).toEqual('');
+  });
+
+  test("handles a string with mixed whitespace characters", () => {
+    expect(trimEnd('Trailing Whitespace\t\r\n')).toEqual('Trailing Whitespace');
+  });
+
+  // Add more test cases as needed...
+});
