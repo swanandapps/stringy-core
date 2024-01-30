@@ -4,10 +4,10 @@
 
 ✨ Lodash but for Strings!
 
-[![npm version](https://img.shields.io/npm/v/stringy.svg)](https://npmjs.org/package/stringy)
-![Minified Size](https://img.shields.io/bundlephobia/min/stringy.svg)
-![Minzipped Size](https://img.shields.io/bundlephobia/minzip/stringy.svg)
-![Monthly Downloads](https://img.shields.io/npm/dm/stringy.svg)
+[![npm version](https://img.shields.io/npm/v/stringy-core.svg)](https://npmjs.org/package/stringy-core)
+![Minified Size](https://img.shields.io/bundlephobia/min/stringy-core.svg)
+![Minzipped Size](https://img.shields.io/bundlephobia/minzip/stringy-core.svg)
+![Monthly Downloads](https://img.shields.io/npm/dm/stringy-core.svg)
 
 ## Overview
 
@@ -19,7 +19,7 @@ Designed to ace string manipulation, a crucial aspect in many applications. It's
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Available Methods](#available-methods)
+- [All Available Methods](#all-available-methods)
 - [How to Contribute](#how-to-contribute)
 - [License](#license)
 
