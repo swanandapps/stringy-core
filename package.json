@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Stringy: A nimble and intuitive JavaScript library for efficient string manipulation.",
   "main": "index.js",
+  "repository": "https://github.com/swanandapps/stringy-core",
   "type": "module",
   "author": "",
   "scripts": {
