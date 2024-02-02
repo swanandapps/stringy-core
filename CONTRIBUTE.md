@@ -5,9 +5,10 @@
 <br />
 
 ## 🚀 Start Here:
+
 <br />
 
-## 🛤️ Contribution Stations 
+## 🛤️ Contribution Stations
 
 In the Stringy codebase, you'll find several "Contribution Stations". These are specially marked sections where we encourage contributions, particularly from those who are new to open source or to the project.
 <br />
@@ -19,7 +20,8 @@ A Contribution Station is a segment of code, marked with a special comment, wher
 - A clear description of what's needed.
 - An example input and the expected output.
 - A placeholder where you can write your code.
-<br />
+  <br />
+
 ### Example:
 
 ```javascript
@@ -30,12 +32,14 @@ function stringReverse(string) {
   // Write your code here and export it.
 }
 ```
+
 <br />
 
-## 🧵 How to Contribute at a Station 
+## 🧵 How to Contribute at a Station
+
 <br />
 
-### Step 1: 👀 Find the Contribution Station suitable for you from Good First Issue 
+### Step 1: 👀 Find the Contribution Station suitable for you from Good First Issue
 
 <br />
 → Begin by looking for issues tagged as 'good first issue'. These are great for getting warmed up!
@@ -45,7 +49,8 @@ function stringReverse(string) {
 <br />
 <br />
 
-### Step 2: 🌿 Create a Branch 
+### Step 2: 🌿 Create a Branch
+
 <br />
 
 → On the issue page, start by creating a branch. This keeps the main codebase safe while you make your changes.
@@ -55,7 +60,8 @@ function stringReverse(string) {
 <br />
 <br />
 
-### Step 3: 🏡 Clone the Repo 
+### Step 3: 🏡 Clone the Repo
+
 <br />
 
 → Clone the Stringy repository to your local machine and switch to your new branch to begin coding.
@@ -70,20 +76,22 @@ function stringReverse(string) {
 <br />
 <br />
 
-### Step 4: 💾 Commit Your Changes 
+### Step 4: 💾 Commit Your Changes
+
 <br />
 
 → Time to save your changes with a good commit message. Don't worry, it's just your branch.
 <br />
 <br />
 
-### Step 5: ⬆️ Push Your Changes 
+### Step 5: ⬆️ Push Your Changes
 
-→ Push your commits to your GitHub branch. 
+→ Push your commits to your GitHub branch.
 <br />
 <br />
 
-### Step 6: 🔄 Back to GitHub Repo 
+### Step 6: 🔄 Back to GitHub Repo
+
 <br />
 
 → Upon pushing your changes, you'll see an update in your repository with an option to create a Pull Request.
@@ -93,7 +101,8 @@ function stringReverse(string) {
 <br />
 <br />
 
-### Step 7: ➕ Open a Pull Request 
+### Step 7: ➕ Open a Pull Request
+
 <br />
 
 → Now, let the world see your work. Click on the green button or follow the next steps to open a Pull Request.
@@ -109,7 +118,7 @@ function stringReverse(string) {
 <br />
 <br />
 
-### Step 8: 📬 PR Opened 
+### Step 8: 📬 PR Opened
 
 → Your PR is now waiting for review. Nice work!
 <br />
@@ -119,10 +128,10 @@ function stringReverse(string) {
 <br />
 <br />
 
-### Step 9: 🎉 Merge and Celebrate 
+### Step 9: 🎉 Merge and Celebrate
+
 <br />
 
 → After your PR is reviewed and approved, it'll be merged. Congratulations, you're a Stringy contributor!
 
 Now, take a moment like Pablo to enjoy your accomplishment. You've taken a big step in your open-source journey with Stringy. Keep it up! 🌟
-
