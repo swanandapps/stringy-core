@@ -8,12 +8,12 @@ on:
     workflow_dispatch:
 
   concurrency:
-    group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+    group: ${{ github.event.pull_request.number || github.ref }}
     cancel-in-progress: true
 
 jobs:
   jest:
-    if: ${{ github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'trigger-CI') || !github.event.pull_request.draft }}
+    if: ${{ github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'trigger-CI/CD') || !github.event.pull_request.draft }}
     runs-on: ubuntu-latest
 
     steps:
