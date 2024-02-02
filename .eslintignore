@@ -1,1 +1,12 @@
-tests/*.test.js
+node_modules/
+.DS_Store
+*.log
+*.lock
+*.env
+.github/
+.husky
+
+*.md
+*.MD
+
+package-lock.json
