@@ -1,16 +1,22 @@
-name: "CI/CD"
+name: 'CI/CD'
 on:
   push:
     branches: [main]
-    pull_request:
-      types: [opened, reopened, synchronize, ready_for_review, labeled]
-      branches: [main]
-    workflow_dispatch:
+
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review, labeled]
+    branches: [main]
+
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   jest:
     runs-on: ubuntu-latest
-    # if: ${{ github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'trigger-CI/CD') || !github.event.pull_request.draft }}
+    if: ${{ github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'trigger-CI/CD') || !github.event.pull_request.draft }}
 
     steps:
       - name: Checkout Repository
@@ -22,5 +28,3 @@ jobs:
 
       - name: Run test
         run: npm run test
-
-
