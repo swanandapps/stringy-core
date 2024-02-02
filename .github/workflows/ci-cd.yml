@@ -1,0 +1,30 @@
+name: "CI/CD"
+on:
+  push:
+    branches: [main]
+    pull_request:
+      types: [opened, reopened, synchronize, ready_for_review, labeled]
+      branches: [main]
+    workflow_dispatch:
+
+  concurrency:
+    group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+    cancel-in-progress: true
+
+jobs:
+  jest:
+    if: ${{ github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'trigger-CI') || !github.event.pull_request.draft }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Install npm dependencies
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run test
+        run: npm run test
+
+
