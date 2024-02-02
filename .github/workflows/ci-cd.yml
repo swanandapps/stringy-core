@@ -9,8 +9,8 @@ on:
 
 jobs:
   jest:
-    if: ${{ github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'trigger-CI/CD') || !github.event.pull_request.draft }}
     runs-on: ubuntu-latest
+    # if: ${{ github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'trigger-CI/CD') || !github.event.pull_request.draft }}
 
     steps:
       - name: Checkout Repository
