@@ -1,5 +1,6 @@
 import {
   capitalize,
+  extractemails,
   extractNumbers,
   countWords,
   isBalancedBrackets,
@@ -28,6 +29,17 @@ import {
 describe("capitalize", () => {
   test("capitalizes the first letter of a word", () => {
     expect(capitalize("stringy")).toBe("Stringy");
+  });
+});
+
+describe("extractEmails", () => {
+  test("extracts email addresses from a string containing multiple emails", () => {
+    expect(
+      extractEmails("Contact us at info@example.com or support@test.org.")
+    ).toEqual([
+      "info@example.com",
+      "support@test.org",
+    ]);
   });
 });
 
